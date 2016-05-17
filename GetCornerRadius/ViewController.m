@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "UIImage+QStion.h"
 @interface ViewController ()
 
 @end
@@ -17,6 +17,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    UIImage *image = [[UIImage imageNamed:@"LaunghImage.png"] QS_cropSameImageToSize:CGSizeMake(100, 100)];
+    image = [image QS_getCornerRadius:100];
+    UIButton *btn = [UIButton buttonWithType:UIButtonTypeSystem];
+    btn.frame = CGRectMake(100, 100, 100, 100);
+    [btn setBackgroundImage:image forState:UIControlStateNormal];
+//    btn.backgroundColor = [UIColor blueColor];
+    [self.view addSubview:btn];
+    
 }
 
 - (void)didReceiveMemoryWarning {

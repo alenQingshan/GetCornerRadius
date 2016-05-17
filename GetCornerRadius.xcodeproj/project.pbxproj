@@ -15,6 +15,7 @@
 		EAD6F2751CEB142B005BF377 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAD6F2731CEB142B005BF377 /* LaunchScreen.storyboard */; };
 		EAD6F2801CEB142B005BF377 /* GetCornerRadiusTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD6F27F1CEB142B005BF377 /* GetCornerRadiusTests.m */; };
 		EAD6F28B1CEB142B005BF377 /* GetCornerRadiusUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD6F28A1CEB142B005BF377 /* GetCornerRadiusUITests.m */; };
+		EAD6F29A1CEB1440005BF377 /* UIImage+QStion.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD6F2991CEB1440005BF377 /* UIImage+QStion.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		EAD6F2861CEB142B005BF377 /* GetCornerRadiusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GetCornerRadiusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAD6F28A1CEB142B005BF377 /* GetCornerRadiusUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GetCornerRadiusUITests.m; sourceTree = "<group>"; };
 		EAD6F28C1CEB142B005BF377 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAD6F2981CEB1440005BF377 /* UIImage+QStion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+QStion.h"; sourceTree = "<group>"; };
+		EAD6F2991CEB1440005BF377 /* UIImage+QStion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+QStion.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +106,8 @@
 			children = (
 				EAD6F2681CEB142B005BF377 /* AppDelegate.h */,
 				EAD6F2691CEB142B005BF377 /* AppDelegate.m */,
+				EAD6F2981CEB1440005BF377 /* UIImage+QStion.h */,
+				EAD6F2991CEB1440005BF377 /* UIImage+QStion.m */,
 				EAD6F26B1CEB142B005BF377 /* ViewController.h */,
 				EAD6F26C1CEB142B005BF377 /* ViewController.m */,
 				EAD6F26E1CEB142B005BF377 /* Main.storyboard */,
@@ -271,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EAD6F26D1CEB142B005BF377 /* ViewController.m in Sources */,
+				EAD6F29A1CEB1440005BF377 /* UIImage+QStion.m in Sources */,
 				EAD6F26A1CEB142B005BF377 /* AppDelegate.m in Sources */,
 				EAD6F2671CEB142B005BF377 /* main.m in Sources */,
 			);
