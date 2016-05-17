@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EAD6F2671CEB142B005BF377 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD6F2661CEB142B005BF377 /* main.m */; };
+		EAD6F26A1CEB142B005BF377 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD6F2691CEB142B005BF377 /* AppDelegate.m */; };
+		EAD6F26D1CEB142B005BF377 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD6F26C1CEB142B005BF377 /* ViewController.m */; };
+		EAD6F2701CEB142B005BF377 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAD6F26E1CEB142B005BF377 /* Main.storyboard */; };
+		EAD6F2721CEB142B005BF377 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAD6F2711CEB142B005BF377 /* Assets.xcassets */; };
+		EAD6F2751CEB142B005BF377 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAD6F2731CEB142B005BF377 /* LaunchScreen.storyboard */; };
+		EAD6F2801CEB142B005BF377 /* GetCornerRadiusTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD6F27F1CEB142B005BF377 /* GetCornerRadiusTests.m */; };
+		EAD6F28B1CEB142B005BF377 /* GetCornerRadiusUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD6F28A1CEB142B005BF377 /* GetCornerRadiusUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EAD6F27C1CEB142B005BF377 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EAD6F25A1CEB142B005BF377 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAD6F2611CEB142B005BF377;
+			remoteInfo = GetCornerRadius;
+		};
+		EAD6F2871CEB142B005BF377 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EAD6F25A1CEB142B005BF377 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAD6F2611CEB142B005BF377;
+			remoteInfo = GetCornerRadius;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EAD6F2621CEB142B005BF377 /* GetCornerRadius.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GetCornerRadius.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAD6F2661CEB142B005BF377 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EAD6F2681CEB142B005BF377 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EAD6F2691CEB142B005BF377 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EAD6F26B1CEB142B005BF377 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EAD6F26C1CEB142B005BF377 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EAD6F26F1CEB142B005BF377 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EAD6F2711CEB142B005BF377 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EAD6F2741CEB142B005BF377 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EAD6F2761CEB142B005BF377 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAD6F27B1CEB142B005BF377 /* GetCornerRadiusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GetCornerRadiusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAD6F27F1CEB142B005BF377 /* GetCornerRadiusTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GetCornerRadiusTests.m; sourceTree = "<group>"; };
+		EAD6F2811CEB142B005BF377 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAD6F2861CEB142B005BF377 /* GetCornerRadiusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GetCornerRadiusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAD6F28A1CEB142B005BF377 /* GetCornerRadiusUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GetCornerRadiusUITests.m; sourceTree = "<group>"; };
+		EAD6F28C1CEB142B005BF377 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EAD6F25F1CEB142B005BF377 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAD6F2781CEB142B005BF377 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAD6F2831CEB142B005BF377 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EAD6F2591CEB142B005BF377 = {
+			isa = PBXGroup;
+			children = (
+				EAD6F2641CEB142B005BF377 /* GetCornerRadius */,
+				EAD6F27E1CEB142B005BF377 /* GetCornerRadiusTests */,
+				EAD6F2891CEB142B005BF377 /* GetCornerRadiusUITests */,
+				EAD6F2631CEB142B005BF377 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EAD6F2631CEB142B005BF377 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EAD6F2621CEB142B005BF377 /* GetCornerRadius.app */,
+				EAD6F27B1CEB142B005BF377 /* GetCornerRadiusTests.xctest */,
+				EAD6F2861CEB142B005BF377 /* GetCornerRadiusUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EAD6F2641CEB142B005BF377 /* GetCornerRadius */ = {
+			isa = PBXGroup;
+			children = (
+				EAD6F2681CEB142B005BF377 /* AppDelegate.h */,
+				EAD6F2691CEB142B005BF377 /* AppDelegate.m */,
+				EAD6F26B1CEB142B005BF377 /* ViewController.h */,
+				EAD6F26C1CEB142B005BF377 /* ViewController.m */,
+				EAD6F26E1CEB142B005BF377 /* Main.storyboard */,
+				EAD6F2711CEB142B005BF377 /* Assets.xcassets */,
+				EAD6F2731CEB142B005BF377 /* LaunchScreen.storyboard */,
+				EAD6F2761CEB142B005BF377 /* Info.plist */,
+				EAD6F2651CEB142B005BF377 /* Supporting Files */,
+			);
+			path = GetCornerRadius;
+			sourceTree = "<group>";
+		};
+		EAD6F2651CEB142B005BF377 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EAD6F2661CEB142B005BF377 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EAD6F27E1CEB142B005BF377 /* GetCornerRadiusTests */ = {
+			isa = PBXGroup;
+			children = (
+				EAD6F27F1CEB142B005BF377 /* GetCornerRadiusTests.m */,
+				EAD6F2811CEB142B005BF377 /* Info.plist */,
+			);
+			path = GetCornerRadiusTests;
+			sourceTree = "<group>";
+		};
+		EAD6F2891CEB142B005BF377 /* GetCornerRadiusUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EAD6F28A1CEB142B005BF377 /* GetCornerRadiusUITests.m */,
+				EAD6F28C1CEB142B005BF377 /* Info.plist */,
+			);
+			path = GetCornerRadiusUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EAD6F2611CEB142B005BF377 /* GetCornerRadius */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAD6F28F1CEB142B005BF377 /* Build configuration list for PBXNativeTarget "GetCornerRadius" */;
+			buildPhases = (
+				EAD6F25E1CEB142B005BF377 /* Sources */,
+				EAD6F25F1CEB142B005BF377 /* Frameworks */,
+				EAD6F2601CEB142B005BF377 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GetCornerRadius;
+			productName = GetCornerRadius;
+			productReference = EAD6F2621CEB142B005BF377 /* GetCornerRadius.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EAD6F27A1CEB142B005BF377 /* GetCornerRadiusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAD6F2921CEB142B005BF377 /* Build configuration list for PBXNativeTarget "GetCornerRadiusTests" */;
+			buildPhases = (
+				EAD6F2771CEB142B005BF377 /* Sources */,
+				EAD6F2781CEB142B005BF377 /* Frameworks */,
+				EAD6F2791CEB142B005BF377 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EAD6F27D1CEB142B005BF377 /* PBXTargetDependency */,
+			);
+			name = GetCornerRadiusTests;
+			productName = GetCornerRadiusTests;
+			productReference = EAD6F27B1CEB142B005BF377 /* GetCornerRadiusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EAD6F2851CEB142B005BF377 /* GetCornerRadiusUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAD6F2951CEB142B005BF377 /* Build configuration list for PBXNativeTarget "GetCornerRadiusUITests" */;
+			buildPhases = (
+				EAD6F2821CEB142B005BF377 /* Sources */,
+				EAD6F2831CEB142B005BF377 /* Frameworks */,
+				EAD6F2841CEB142B005BF377 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EAD6F2881CEB142B005BF377 /* PBXTargetDependency */,
+			);
+			name = GetCornerRadiusUITests;
+			productName = GetCornerRadiusUITests;
+			productReference = EAD6F2861CEB142B005BF377 /* GetCornerRadiusUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EAD6F25A1CEB142B005BF377 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "刘青山";
+				TargetAttributes = {
+					EAD6F2611CEB142B005BF377 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					EAD6F27A1CEB142B005BF377 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = EAD6F2611CEB142B005BF377;
+					};
+					EAD6F2851CEB142B005BF377 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = EAD6F2611CEB142B005BF377;
+					};
+				};
+			};
+			buildConfigurationList = EAD6F25D1CEB142B005BF377 /* Build configuration list for PBXProject "GetCornerRadius" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EAD6F2591CEB142B005BF377;
+			productRefGroup = EAD6F2631CEB142B005BF377 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EAD6F2611CEB142B005BF377 /* GetCornerRadius */,
+				EAD6F27A1CEB142B005BF377 /* GetCornerRadiusTests */,
+				EAD6F2851CEB142B005BF377 /* GetCornerRadiusUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EAD6F2601CEB142B005BF377 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAD6F2751CEB142B005BF377 /* LaunchScreen.storyboard in Resources */,
+				EAD6F2721CEB142B005BF377 /* Assets.xcassets in Resources */,
+				EAD6F2701CEB142B005BF377 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAD6F2791CEB142B005BF377 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAD6F2841CEB142B005BF377 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EAD6F25E1CEB142B005BF377 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAD6F26D1CEB142B005BF377 /* ViewController.m in Sources */,
+				EAD6F26A1CEB142B005BF377 /* AppDelegate.m in Sources */,
+				EAD6F2671CEB142B005BF377 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAD6F2771CEB142B005BF377 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAD6F2801CEB142B005BF377 /* GetCornerRadiusTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAD6F2821CEB142B005BF377 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAD6F28B1CEB142B005BF377 /* GetCornerRadiusUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EAD6F27D1CEB142B005BF377 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EAD6F2611CEB142B005BF377 /* GetCornerRadius */;
+			targetProxy = EAD6F27C1CEB142B005BF377 /* PBXContainerItemProxy */;
+		};
+		EAD6F2881CEB142B005BF377 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EAD6F2611CEB142B005BF377 /* GetCornerRadius */;
+			targetProxy = EAD6F2871CEB142B005BF377 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EAD6F26E1CEB142B005BF377 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAD6F26F1CEB142B005BF377 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EAD6F2731CEB142B005BF377 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAD6F2741CEB142B005BF377 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EAD6F28D1CEB142B005BF377 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EAD6F28E1CEB142B005BF377 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EAD6F2901CEB142B005BF377 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GetCornerRadius/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.canls.GetCornerRadius;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EAD6F2911CEB142B005BF377 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GetCornerRadius/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.canls.GetCornerRadius;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EAD6F2931CEB142B005BF377 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GetCornerRadiusTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.canls.GetCornerRadiusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GetCornerRadius.app/GetCornerRadius";
+			};
+			name = Debug;
+		};
+		EAD6F2941CEB142B005BF377 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GetCornerRadiusTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.canls.GetCornerRadiusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GetCornerRadius.app/GetCornerRadius";
+			};
+			name = Release;
+		};
+		EAD6F2961CEB142B005BF377 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GetCornerRadiusUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.canls.GetCornerRadiusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GetCornerRadius;
+			};
+			name = Debug;
+		};
+		EAD6F2971CEB142B005BF377 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GetCornerRadiusUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.canls.GetCornerRadiusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GetCornerRadius;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EAD6F25D1CEB142B005BF377 /* Build configuration list for PBXProject "GetCornerRadius" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAD6F28D1CEB142B005BF377 /* Debug */,
+				EAD6F28E1CEB142B005BF377 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAD6F28F1CEB142B005BF377 /* Build configuration list for PBXNativeTarget "GetCornerRadius" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAD6F2901CEB142B005BF377 /* Debug */,
+				EAD6F2911CEB142B005BF377 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EAD6F2921CEB142B005BF377 /* Build configuration list for PBXNativeTarget "GetCornerRadiusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAD6F2931CEB142B005BF377 /* Debug */,
+				EAD6F2941CEB142B005BF377 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EAD6F2951CEB142B005BF377 /* Build configuration list for PBXNativeTarget "GetCornerRadiusUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAD6F2961CEB142B005BF377 /* Debug */,
+				EAD6F2971CEB142B005BF377 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EAD6F25A1CEB142B005BF377 /* Project object */;
+}
