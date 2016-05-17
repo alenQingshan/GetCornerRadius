@@ -16,13 +16,19 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+
+    
+    //使用订制的image可以直接生成圆角,不必再使用layer.CornerRadius
+    //这样使用的好处就是我们的cpu可以节省资源让原本不属于它的工作,交还给GPU来实现
+    //绿色为图片,蓝色为按钮背景
+    
+    
     UIImage *image = [[UIImage imageNamed:@"LaunghImage.png"] QS_cropSameImageToSize:CGSizeMake(100, 100)];
     image = [image QS_getCornerRadius:100];
     UIButton *btn = [UIButton buttonWithType:UIButtonTypeSystem];
     btn.frame = CGRectMake(100, 100, 100, 100);
     [btn setBackgroundImage:image forState:UIControlStateNormal];
-//    btn.backgroundColor = [UIColor blueColor];
+    btn.backgroundColor = [UIColor blueColor];
     [self.view addSubview:btn];
     
 }
