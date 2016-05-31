@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "UIImage+QStion.h"
+#import "QSButton.h"
 @interface ViewController ()
 
 @end
@@ -30,6 +31,10 @@
     [btn setBackgroundImage:image forState:UIControlStateNormal];
     btn.backgroundColor = [UIColor blueColor];
     [self.view addSubview:btn];
+    
+    
+    UIButton *button = [QSButton buttonWithFrame:CGRectMake(100, 300, 100, 100) image:[UIImage imageNamed:@"LaunghImage.png"] imageSize:CGSizeMake(100, 100) cornerRadius:100 color:[UIColor blueColor]];
+    [self.view addSubview:button];
     
 }
 
