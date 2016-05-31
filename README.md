@@ -17,3 +17,5 @@ The performance of our app, is not very good?
 GPU切割圆角,放弃CPU处理
 这是用图片直接切割为圆角的方法,这样使用的好处就是可以使用GPU来处理圆角效果,再也不用CPU复核使用layer.cornerRadius来拖慢
 我们app的性能了,是不是很赞?
+
+如果有问题可以直接issues我,感觉有帮助记得给个星星呦
