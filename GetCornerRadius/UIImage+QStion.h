@@ -9,10 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface UIImage (QStion)
-//等比缩放
-- (UIImage *)QS_cropSameImageToSize:(CGSize)size;
-//非等比缩放
-- (UIImage *)QS_noSameImageToSize:(CGSize)size;
 //圆角切割
 - (UIImage *)QS_getCornerRadius:(CGFloat)cornerRadius;
 @end

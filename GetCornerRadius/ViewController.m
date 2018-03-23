@@ -8,7 +8,7 @@
 
 #import "ViewController.h"
 #import "UIImage+QStion.h"
-#import "QSButton.h"
+#import "QSTool.h"
 @interface ViewController ()
 
 @end
@@ -18,24 +18,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    
     //使用订制的image可以直接生成圆角,不必再使用layer.CornerRadius
     //这样使用的好处就是我们的cpu可以节省资源让原本不属于它的工作,交还给GPU来实现
-    //绿色为图片,蓝色为按钮背景
     
-    
-    UIImage *image = [[UIImage imageNamed:@"LaunghImage.png"] QS_cropSameImageToSize:CGSizeMake(100, 100)];
-    image = [image QS_getCornerRadius:100];
-    UIButton *btn = [UIButton buttonWithType:UIButtonTypeSystem];
-    btn.frame = CGRectMake(100, 100, 100, 100);
-    [btn setBackgroundImage:image forState:UIControlStateNormal];
-    btn.backgroundColor = [UIColor blueColor];
-    [self.view addSubview:btn];
-    
-    
-    UIButton *button = [QSButton buttonWithFrame:CGRectMake(100, 300, 100, 100) image:[UIImage imageNamed:@"LaunghImage.png"] imageSize:CGSizeMake(100, 100) cornerRadius:100 color:[UIColor blueColor]];
+    UIButton *button = [QSTool buttonWithFrame:CGRectMake((self.view.frame.size.width-100)/2, 200, 100, 100) imageName:@"LaunghImage.png" cornerRadius:100 backgroundColor:[UIColor grayColor]];
     [self.view addSubview:button];
     
+    UIImageView *imageView = [QSTool imageViewWithFrame:CGRectMake((self.view.frame.size.width-100)/2, 310, 100, 100) imageName:@"LaunghImage2.png" cornerRadius:100 backgroundColor:[UIColor grayColor]];
+    [self.view addSubview:imageView];
 }
 
 - (void)didReceiveMemoryWarning {
