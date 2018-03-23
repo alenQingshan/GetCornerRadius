@@ -11,7 +11,11 @@
 
 @interface QSTool : NSObject
 
++ (UIImage *)imageWithNoCeachImage:(NSString *)imageName;
+
 + (UIButton *)buttonWithFrame:(CGRect)frame imageName:(NSString *)image cornerRadius:(CGFloat)radius backgroundColor:(UIColor *)color;
 
 + (UIImageView *)imageViewWithFrame:(CGRect)frame imageName:(NSString *)image cornerRadius:(CGFloat)radius backgroundColor:(UIColor *)color;
+
++ (UIImageView *)maskImageViewWithFrame:(CGRect)frame imageName:(NSString *)image maskImageName:(NSString *)mImage;
 @end

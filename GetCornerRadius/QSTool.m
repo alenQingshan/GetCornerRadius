@@ -7,13 +7,19 @@
 //
 
 #import "QSTool.h"
-#import "UIImage+QStion.h"
+#import "QSImageHead.h"
 @implementation QSTool
+
++ (UIImage *)imageWithNoCeachImage:(NSString *)imageName
+{
+    return nil;
+}
 
 + (UIButton *)buttonWithFrame:(CGRect)frame imageName:(NSString *)image cornerRadius:(CGFloat)radius backgroundColor:(UIColor *)color
 {
     UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
     button.frame = frame;
+
     if (radius && image) {
         [button setBackgroundImage:[[UIImage imageNamed:image] QS_getCornerRadius:radius] forState:UIControlStateNormal];
     }
@@ -34,5 +40,15 @@
     }
     return imageView;
 }
+
+
++ (UIImageView *)maskImageViewWithFrame:(CGRect)frame imageName:(NSString *)image maskImageName:(NSString *)mImage
+{
+    UIImage *maskimage = [UIImage maskWithShowImage:[UIImage imageNamed:image] maskImage:[UIImage imageNamed:mImage]];
+    UIImageView* imageView = [[UIImageView alloc] initWithImage:maskimage];
+    imageView.frame = frame;
+    return imageView;
+}
+
 
 @end

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		274412F22064CB670092BC7C /* UIImage+QStion.m in Sources */ = {isa = PBXBuildFile; fileRef = 274412EF2064CB660092BC7C /* UIImage+QStion.m */; };
+		274412F72064D0820092BC7C /* UIImage+QSmask.m in Sources */ = {isa = PBXBuildFile; fileRef = 274412F62064D0820092BC7C /* UIImage+QSmask.m */; };
 		EAA815151CFD37E30062F200 /* QSTool.m in Sources */ = {isa = PBXBuildFile; fileRef = EAA815141CFD37E30062F200 /* QSTool.m */; };
 		EAD6F2671CEB142B005BF377 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD6F2661CEB142B005BF377 /* main.m */; };
 		EAD6F26A1CEB142B005BF377 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD6F2691CEB142B005BF377 /* AppDelegate.m */; };
@@ -16,7 +18,6 @@
 		EAD6F2751CEB142B005BF377 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAD6F2731CEB142B005BF377 /* LaunchScreen.storyboard */; };
 		EAD6F2801CEB142B005BF377 /* GetCornerRadiusTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD6F27F1CEB142B005BF377 /* GetCornerRadiusTests.m */; };
 		EAD6F28B1CEB142B005BF377 /* GetCornerRadiusUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD6F28A1CEB142B005BF377 /* GetCornerRadiusUITests.m */; };
-		EAD6F29A1CEB1440005BF377 /* UIImage+QStion.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD6F2991CEB1440005BF377 /* UIImage+QStion.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +38,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		274412EE2064CB660092BC7C /* UIImage+QStion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+QStion.h"; sourceTree = "<group>"; };
+		274412EF2064CB660092BC7C /* UIImage+QStion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+QStion.m"; sourceTree = "<group>"; };
+		274412F42064CB8F0092BC7C /* QSImageHead.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QSImageHead.h; sourceTree = "<group>"; };
+		274412F52064D0820092BC7C /* UIImage+QSmask.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+QSmask.h"; sourceTree = "<group>"; };
+		274412F62064D0820092BC7C /* UIImage+QSmask.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+QSmask.m"; sourceTree = "<group>"; };
 		EAA815131CFD37E30062F200 /* QSTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QSTool.h; sourceTree = "<group>"; };
 		EAA815141CFD37E30062F200 /* QSTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QSTool.m; sourceTree = "<group>"; };
 		EAD6F2621CEB142B005BF377 /* GetCornerRadius.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GetCornerRadius.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -55,8 +61,6 @@
 		EAD6F2861CEB142B005BF377 /* GetCornerRadiusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GetCornerRadiusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAD6F28A1CEB142B005BF377 /* GetCornerRadiusUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GetCornerRadiusUITests.m; sourceTree = "<group>"; };
 		EAD6F28C1CEB142B005BF377 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EAD6F2981CEB1440005BF377 /* UIImage+QStion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+QStion.h"; sourceTree = "<group>"; };
-		EAD6F2991CEB1440005BF377 /* UIImage+QStion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+QStion.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +88,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		274412ED2064CB660092BC7C /* QSPolygonImage */ = {
+			isa = PBXGroup;
+			children = (
+				274412F42064CB8F0092BC7C /* QSImageHead.h */,
+				274412EE2064CB660092BC7C /* UIImage+QStion.h */,
+				274412EF2064CB660092BC7C /* UIImage+QStion.m */,
+				274412F52064D0820092BC7C /* UIImage+QSmask.h */,
+				274412F62064D0820092BC7C /* UIImage+QSmask.m */,
+			);
+			path = QSPolygonImage;
+			sourceTree = "<group>";
+		};
 		EAD6F2591CEB142B005BF377 = {
 			isa = PBXGroup;
 			children = (
@@ -107,10 +123,9 @@
 		EAD6F2641CEB142B005BF377 /* GetCornerRadius */ = {
 			isa = PBXGroup;
 			children = (
+				274412ED2064CB660092BC7C /* QSPolygonImage */,
 				EAA815131CFD37E30062F200 /* QSTool.h */,
 				EAA815141CFD37E30062F200 /* QSTool.m */,
-				EAD6F2981CEB1440005BF377 /* UIImage+QStion.h */,
-				EAD6F2991CEB1440005BF377 /* UIImage+QStion.m */,
 				EAD6F2681CEB142B005BF377 /* AppDelegate.h */,
 				EAD6F2691CEB142B005BF377 /* AppDelegate.m */,
 				EAD6F26B1CEB142B005BF377 /* ViewController.h */,
@@ -280,9 +295,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				274412F22064CB670092BC7C /* UIImage+QStion.m in Sources */,
 				EAA815151CFD37E30062F200 /* QSTool.m in Sources */,
 				EAD6F26D1CEB142B005BF377 /* ViewController.m in Sources */,
-				EAD6F29A1CEB1440005BF377 /* UIImage+QStion.m in Sources */,
+				274412F72064D0820092BC7C /* UIImage+QSmask.m in Sources */,
 				EAD6F26A1CEB142B005BF377 /* AppDelegate.m in Sources */,
 				EAD6F2671CEB142B005BF377 /* main.m in Sources */,
 			);
